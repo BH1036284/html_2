@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/lasagna.html">Lasagna Recipe</a></li>
-        <li><a href="recipes/grinch-kabobs.html">Grinch Kabobs Recipe</a></li>
-        <li><a href="recipes/cranberry-turkey-pinwheels.html">Cranberry Turkey Pinwheels Recipe</a></li>
-    </ul>
+    <h1 class="heading">Odin Recipes</h1>
+    <div class="button-container">
+        <button class="button other" onclick="window.location.href='recipes/lasagna.html';">Lasagna Recipe</button>
+        <button class="button christmas" onclick="window.location.href='recipes/grinch-kabobs.html';">Grinch Kabobs Recipe</button>
+        <button class="button thanksgiving" onclick="window.location.href='recipes/cranberry-turkey-pinwheels.html';">Cranberry Turkey Pinwheels Recipe</button>
+    </div>
+
 </body>
 </html>

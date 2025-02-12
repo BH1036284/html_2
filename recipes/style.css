@@ -1,0 +1,17 @@
+.circle-img, 
+.rounded-img {
+    height: auto;
+    width: 500px;
+}
+
+.circle-img {
+    border-radius: 50%;
+}
+
+.rounded-img {
+    border-radius: 8px;
+}
+
+.cristmas-text {
+    color: forestgreen
+}
